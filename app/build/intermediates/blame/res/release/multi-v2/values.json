@@ -1,0 +1,41 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\AndroidProject\\Live2D_SDK_Android_2.0.06_1_en\\liveWallpaper\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\AndroidProject\\Live2D_SDK_Android_2.0.06_1_en\\liveWallpaper\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "205",
+                        "endColumns": "57",
+                        "endOffsets": "258"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidProject\\Live2D_SDK_Android_2.0.06_1_en\\liveWallpaper\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,-1,4",
+                        "startColumns": "4,-1,4",
+                        "startOffsets": "19,-1,112",
+                        "endColumns": "39,-1,58",
+                        "endOffsets": "54,-1,166"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,95,146",
+                        "endColumns": "39,50,58",
+                        "endOffsets": "90,141,200"
+                    }
+                }
+            ]
+        }
+    ]
+}

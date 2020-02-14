@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:1:1-40:12
+INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:1:1-40:12
+INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:1:1-40:12
+INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:1:1-40:12
+INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:1:1-40:12
+INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:1:1-40:12
+INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:1:1-40:12
+	package
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:2:5-31
+		INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml
+	android:screenOrientation
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:5:5-41
+	android:versionName
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:7:5-8:41
+INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:7:5-8:41
+INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:7:5-8:41
+INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:7:5-8:41
+INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:7:5-8:41
+	android:targetSdkVersion
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:8:9-38
+		INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:7:5-8:41
+		INJECTED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:10:5-38:19
+	android:screenOrientation
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:14:9-45
+	android:label
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:12:9-41
+	android:icon
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:11:9-38
+	android:theme
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:13:9-40
+activity#jp.live2d.sample.SampleActivity
+ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:15:9-24:20
+	android:screenOrientation
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:16:13-49
+	android:label
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:18:13-58
+	android:name
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:17:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:22:27-74
+service#jp.live2d.sample.LiveWallpaperService
+ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:26:9-37:13
+	android:label
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:28:7-52
+	android:permission
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:29:7-61
+	android:name
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:27:7-59
+intent-filter#action:name:android.service.wallpaper.WallpaperService
+ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:30:7-32:23
+action#android.service.wallpaper.WallpaperService
+ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:31:11-79
+	android:name
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:31:19-76
+meta-data#android.service.wallpaper
+ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:34:7-36:47
+	android:resource
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:36:11-44
+	android:name
+		ADDED from D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:35:11-51

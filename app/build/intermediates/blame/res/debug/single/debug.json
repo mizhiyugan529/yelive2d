@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\yelive2d\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sample.xml.flat",
+        "source": "D:\\AndroidProject\\yelive2d\\app\\src\\main\\res\\layout\\activity_sample.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\yelive2d\\app\\build\\intermediates\\res\\merged\\debug\\xml_wallpaper.xml.flat",
+        "source": "D:\\AndroidProject\\yelive2d\\app\\src\\main\\res\\xml\\wallpaper.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\yelive2d\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon1.JPG.flat",
+        "source": "D:\\AndroidProject\\yelive2d\\app\\src\\main\\res\\drawable-hdpi\\icon1.JPG"
+    },
+    {
+        "merged": "D:\\AndroidProject\\yelive2d\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_sample.xml.flat",
+        "source": "D:\\AndroidProject\\yelive2d\\app\\src\\main\\res\\menu\\activity_sample.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\yelive2d\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon.JPG.flat",
+        "source": "D:\\AndroidProject\\yelive2d\\app\\src\\main\\res\\drawable-hdpi\\icon.JPG"
+    },
+    {
+        "merged": "D:\\AndroidProject\\yelive2d\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_image.png.flat",
+        "source": "D:\\AndroidProject\\yelive2d\\app\\src\\main\\res\\drawable-hdpi\\image.png"
+    }
+]

@@ -1,0 +1,122 @@
+{
+    "version":"Sample 1.0.0",
+    "pose": "QianJi.pose.json",
+    "model":"model.moc",
+    "textures":[
+        "https://cdn.jsdelivr.net/gh/mizhiyugan529/resource/texture_00.png",
+        "https://cdn.jsdelivr.net/gh/mizhiyugan529/resource/texture_01.png",
+        "https://cdn.jsdelivr.net/gh/mizhiyugan529/resource/texture_02.png"
+    ],
+    
+    "hit_areas_custom":{
+		"head_x":[-0.8, 1.2],
+		"head_y":[-0.6, 1],
+		"body_x":[-0.7, 0.9],
+		"body_y":[-0.6, -0.4],
+		"qianjisan_x":[-0.9, 0.7],
+		"qianjisan_y":[-0.78, -0.45]
+	},
+	"hit_areas":
+    [
+        {"name":"qianjisan","id":"D_PSD.13","motion":"tap_qianjisan"}
+    ],
+    "motions":{
+        "idle":[
+        	{"file":"motion/heart.mtn"},
+            {"file":"motion/22.mtn"},
+            {"file":"motion/23.mtn"},
+            {"file":"motion/25.mtn"},
+            {"file":"motion/28.mtn"},
+            {"file":"motion/29.mtn"},
+            {"file":"motion/QianJi_2.mtn"},
+            {"file":"motion/QianJi_3.mtn"},
+            {"file":"motion/QianJi_4.mtn"},
+            {"file":"sharedmotions/BuGaoXing_D_1.mtn"},
+            {"file":"sharedmotions/BuGaoXing_J_1.mtn"},
+            {"file":"sharedmotions/ChaoFeng_D_1.mtn"},
+            {"file":"sharedmotions/ChaoFeng_J_1.mtn"},
+            {"file":"sharedmotions/DaJiao.mtn"},
+            {"file":"sharedmotions/DaXiao_D_1.mtn"},
+            {"file":"sharedmotions/DaXiao_J_1.mtn"},
+            {"file":"sharedmotions/DouBi_Surprise.mtn"},
+            {"file":"sharedmotions/DouBi_ZuoKanYouKan.mtn"},
+            {"file":"sharedmotions/FouDing_J_1.mtn"},
+            {"file":"sharedmotions/Idle_nohands.mtn"},
+            {"file":"sharedmotions/idle0_GuiYiPiFu_1.mtn"},
+            {"file":"sharedmotions/Idle11.mtn"},
+            {"file":"sharedmotions/Idle12.mtn"},
+            {"file":"sharedmotions/Idle19.mtn"},
+            {"file":"sharedmotions/Idle22.mtn"},
+            {"file":"sharedmotions/JingYia_D_1.mtn"},
+            {"file":"sharedmotions/JinLing_AoJiao2.mtn"},
+            {"file":"sharedmotions/JinLing_DaChuanQI.mtn"},
+            {"file":"sharedmotions/JinLing_DaXiao.mtn"},
+            {"file":"sharedmotions/JinLing_FouDing.mtn"},
+            {"file":"sharedmotions/JinLing_JingYa.mtn"},
+            {"file":"sharedmotions/JinLing_KenDing.mtn"},
+            {"file":"sharedmotions/JinLing_QingXiao.mtn"},
+            {"file":"sharedmotions/JinLing_RenBuZhuXiao.mtn"},
+            {"file":"sharedmotions/JinLing_ShengQi.mtn"},
+            {"file":"sharedmotions/JinLing_ShengQi2.mtn"},
+            {"file":"sharedmotions/JinLing_TanQi.mtn"},
+            {"file":"sharedmotions/JinLing_YouYu.mtn"},
+            {"file":"sharedmotions/JunZi_ShangXin.mtn"},
+            {"file":"sharedmotions/KenDing_D_1.mtn"},
+            {"file":"sharedmotions/KenDing_J_1.mtn"},
+            {"file":"sharedmotions/LvZhu_BuGaoXing.mtn"},
+            {"file":"sharedmotions/LvZhu_ChaoFeng.mtn"},
+            {"file":"sharedmotions/LvZhu_DaXiao.mtn"},
+            {"file":"sharedmotions/LvZhu_FouDing.mtn"},
+            {"file":"sharedmotions/LvZhu_JingYa.mtn"},
+            {"file":"sharedmotions/LvZhu_KenDing.mtn"},
+            {"file":"sharedmotions/LvZhu_QingXiao.mtn"},
+            {"file":"sharedmotions/LvZhu_ShengQi.mtn"},
+            {"file":"sharedmotions/LvZhu_ShouShangKeSao.mtn"},
+            {"file":"sharedmotions/LvZhu_SiKao.mtn"},
+            {"file":"sharedmotions/LvZhu_YouYu.mtn"},
+            {"file":"sharedmotions/Practice.mtn"},
+            {"file":"sharedmotions/QingXiao_D_1.mtn"},
+            {"file":"sharedmotions/ShengQi_J_1.mtn"},
+            {"file":"sharedmotions/TanQi_J_1.mtn"},
+            {"file":"sharedmotions/TuLong_BuGaoXing.mtn"},
+            {"file":"sharedmotions/TuLong_BuShuang.mtn"},
+            {"file":"sharedmotions/TuLong_ChaoFeng.mtn"},
+            {"file":"sharedmotions/TuLong_FaNu.mtn"},
+            {"file":"sharedmotions/TuLong_FouDing.mtn"},
+            {"file":"sharedmotions/TuLong_JingYa.mtn"},
+            {"file":"sharedmotions/TuLong_KenDing.mtn"},
+            {"file":"sharedmotions/TuLong_ShengQi.mtn"},
+            {"file":"sharedmotions/TuLong_shoushang.mtn"},
+            {"file":"sharedmotions/WangHouTiao_L.mtn"},
+            {"file":"sharedmotions/WangHouTiao_R.mtn"},
+            {"file":"sharedmotions/YaoTou01.mtn"},
+            {"file":"sharedmotions/YiTian_DaXiao.mtn"},
+            {"file":"sharedmotions/YiTian_JingYa.mtn"},
+            {"file":"sharedmotions/YiTian_LengXiao.mtn"},
+            {"file":"sharedmotions/YiTian_ShengQi.mtn"},
+            {"file":"sharedmotions/YiTian_shoushang.mtn"},
+            {"file":"sharedmotions/YiTian_TanQi.mtn"},
+            {"file":"sharedmotions/YiTian_YaoTou.mtn"},
+            {"file":"sharedmotions/YiTian_YouYu.mtn"},
+            {"file":"sharedmotions/YouYu_D_1.mtn"}
+        ],
+        "tap":[
+           {"file":"sharedmotions/YouYu_J_1.mtn"}
+		],
+        "tap_qianjisan":[
+            {"file":"sharedmotions/FouDing_D_1.mtn","text":"san"}
+        ],
+		"flick_head":[
+		     {"file":"sharedmotions/FouDing_D_1.mtn","text":"///"}
+		],
+		"fade_in":[
+		     {"file":"sharedmotions/FouDing_D_1.mtn","text":"hello"}
+		],
+		"tap_body":[
+             {"file":"sharedmotions/FouDing_D_1.mtn","text":"///"}
+		]
+    },
+    "physics":"QianJi.physics.json",
+    "project_settings":"model.settings.json",
+    "name":"model"
+}
