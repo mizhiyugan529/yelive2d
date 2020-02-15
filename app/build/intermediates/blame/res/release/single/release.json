@@ -1,26 +1,26 @@
 [
     {
-        "merged": "D:\\AndroidProject\\Live2D_SDK_Android_2.0.06_1_en\\liveWallpaper\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_icon.JPG.flat",
-        "source": "D:\\AndroidProject\\Live2D_SDK_Android_2.0.06_1_en\\liveWallpaper\\app\\src\\main\\res\\drawable-hdpi\\icon.JPG"
+        "merged": "D:\\AndroidProject\\yelive2d\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_icon.JPG.flat",
+        "source": "D:\\AndroidProject\\yelive2d\\app\\src\\main\\res\\drawable-hdpi\\icon.JPG"
     },
     {
-        "merged": "D:\\AndroidProject\\Live2D_SDK_Android_2.0.06_1_en\\liveWallpaper\\app\\build\\intermediates\\res\\merged\\release\\xml_wallpaper.xml.flat",
-        "source": "D:\\AndroidProject\\Live2D_SDK_Android_2.0.06_1_en\\liveWallpaper\\app\\src\\main\\res\\xml\\wallpaper.xml"
+        "merged": "D:\\AndroidProject\\yelive2d\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_icon1.JPG.flat",
+        "source": "D:\\AndroidProject\\yelive2d\\app\\src\\main\\res\\drawable-hdpi\\icon1.JPG"
     },
     {
-        "merged": "D:\\AndroidProject\\Live2D_SDK_Android_2.0.06_1_en\\liveWallpaper\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_icon1.JPG.flat",
-        "source": "D:\\AndroidProject\\Live2D_SDK_Android_2.0.06_1_en\\liveWallpaper\\app\\src\\main\\res\\drawable-hdpi\\icon1.JPG"
+        "merged": "D:\\AndroidProject\\yelive2d\\app\\build\\intermediates\\res\\merged\\release\\xml_wallpaper.xml.flat",
+        "source": "D:\\AndroidProject\\yelive2d\\app\\src\\main\\res\\xml\\wallpaper.xml"
     },
     {
-        "merged": "D:\\AndroidProject\\Live2D_SDK_Android_2.0.06_1_en\\liveWallpaper\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_sample.xml.flat",
-        "source": "D:\\AndroidProject\\Live2D_SDK_Android_2.0.06_1_en\\liveWallpaper\\app\\src\\main\\res\\layout\\activity_sample.xml"
+        "merged": "D:\\AndroidProject\\yelive2d\\app\\build\\intermediates\\res\\merged\\release\\menu_activity_sample.xml.flat",
+        "source": "D:\\AndroidProject\\yelive2d\\app\\src\\main\\res\\menu\\activity_sample.xml"
     },
     {
-        "merged": "D:\\AndroidProject\\Live2D_SDK_Android_2.0.06_1_en\\liveWallpaper\\app\\build\\intermediates\\res\\merged\\release\\menu_activity_sample.xml.flat",
-        "source": "D:\\AndroidProject\\Live2D_SDK_Android_2.0.06_1_en\\liveWallpaper\\app\\src\\main\\res\\menu\\activity_sample.xml"
+        "merged": "D:\\AndroidProject\\yelive2d\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_sample.xml.flat",
+        "source": "D:\\AndroidProject\\yelive2d\\app\\src\\main\\res\\layout\\activity_sample.xml"
     },
     {
-        "merged": "D:\\AndroidProject\\Live2D_SDK_Android_2.0.06_1_en\\liveWallpaper\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_image.png.flat",
-        "source": "D:\\AndroidProject\\Live2D_SDK_Android_2.0.06_1_en\\liveWallpaper\\app\\src\\main\\res\\drawable-hdpi\\image.png"
+        "merged": "D:\\AndroidProject\\yelive2d\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_image.png.flat",
+        "source": "D:\\AndroidProject\\yelive2d\\app\\src\\main\\res\\drawable-hdpi\\image.png"
     }
 ]

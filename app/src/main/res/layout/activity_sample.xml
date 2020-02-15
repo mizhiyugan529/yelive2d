@@ -3,11 +3,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <TextView
+    <Button
+        android:id="@+id/wallpaper"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        tools:context=".SampleActivity" />
+        android:layout_alignParentBottom="true"
+        android:text="选择默认墙纸" />
+
+    <Button
+        android:id="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自己选择背景（选择以后请手动退出app，换背景可能有延迟）" />
 
 </RelativeLayout>

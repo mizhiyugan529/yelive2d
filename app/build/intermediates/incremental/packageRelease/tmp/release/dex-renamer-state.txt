@@ -1,4 +1,4 @@
-#Fri Feb 14 00:35:24 CST 2020
-base.0=D\:\\AndroidProject\\Live2D_SDK_Android_2.0.06_1_en\\liveWallpaper\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+#Sat Feb 15 17:17:09 CST 2020
+base.0=D\:\\AndroidProject\\yelive2d\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

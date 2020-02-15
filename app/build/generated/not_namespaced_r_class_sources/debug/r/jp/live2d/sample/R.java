@@ -15,6 +15,8 @@ public final class R {
   }
   public static final class id {
     public static final int menu_settings=0x7f020000;
+    public static final int picture=0x7f020001;
+    public static final int wallpaper=0x7f020002;
   }
   public static final class layout {
     public static final int activity_sample=0x7f030000;

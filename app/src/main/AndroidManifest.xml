@@ -3,9 +3,9 @@
     android:versionCode="1"
     android:versionName="1.0"
     android:screenOrientation="portrait">
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-sdk
-        android:targetSdkVersion="15" />
+        android:targetSdkVersion="26" />
 
     <application
         android:icon="@drawable/icon"

@@ -7,6 +7,8 @@
  */
  package jp.live2d.sample;
 
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -26,10 +28,12 @@ import android.content.Context;
 import android.content.res.AssetManager;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Typeface;
+import android.os.Environment;
 import android.util.Log;
 
 import javax.microedition.khronos.egl.EGLConfig;
@@ -98,7 +102,9 @@ public class Live2DRenderer implements GLWallpaperService.Renderer
 			"yexiu/sharedmotions/YiTian_YaoTou.mtn"
 	};
 	//背景
-	final static String BACK_IMAGE_NAME="image/back4.jpg" ;
+	static String BACK_IMAGE_NAME="image/back4.jpg" ;
+//	static String BACK_IMAGE_NAME= "/storage/emulated/0/Pictures/Screenshots/Screenshot_20200214-142512.jpg" ;
+	static Boolean isChoicePic=false;
 
 	float glWidth=0;
 	float glHeight=0;
@@ -109,6 +115,17 @@ public class Live2DRenderer implements GLWallpaperService.Renderer
 		con = context;
 		dragMgr=new L2DTargetPoint();
 		motionMgr=new MotionQueueManager();
+		BACK_IMAGE_NAME="image/back4.jpg";
+		isChoicePic=false;
+	}
+
+	public Live2DRenderer(Context context,String string)
+	{
+		con = context;
+		dragMgr=new L2DTargetPoint();
+		motionMgr=new MotionQueueManager();
+		this.BACK_IMAGE_NAME=string ;
+		this.isChoicePic=true;
 	}
 	public void judgePart(float x,float y){
 		if( glHeight!=0f){
@@ -401,20 +418,29 @@ public class Live2DRenderer implements GLWallpaperService.Renderer
     }
 
 	private void setupBackground(GL10 context) {
-		try {
-			FileManager.init(con);
-			InputStream in = FileManager.open(BACK_IMAGE_NAME);
-			bg=new SimpleImage(context,in);
-			bg.setDrawRect(
-					0f,
-					25f,
-					40.0f,
-					-40.0f);
+		InputStream in = null;
+    	if(isChoicePic){
+		Bitmap bm= BitmapFactory.decodeFile(BACK_IMAGE_NAME);
+		ByteArrayOutputStream baos = new ByteArrayOutputStream();
+		bm.compress(Bitmap.CompressFormat.PNG, 100, baos);
+		in = new ByteArrayInputStream(baos .toByteArray());}
+    	else{
+    		try {
 
-
-			bg.setUVRect(0.0f,1.0f,0.0f,1.0f);
-		} catch (IOException e) {
-			e.printStackTrace();
+				FileManager.init(con);
+				in = FileManager.open(BACK_IMAGE_NAME);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
+		bg=new SimpleImage(context,in);
+		bg.setDrawRect(
+				0f,
+				25f,
+				40.0f,
+				-40.0f);
+
+
+		bg.setUVRect(0.0f,1.0f,0.0f,1.0f);
 	}
 }

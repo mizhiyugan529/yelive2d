@@ -5,12 +5,13 @@
 5    android:versionCode="1"
 6    android:versionName="1.0" >
 7
-8    <uses-sdk
+8    <uses-sdk android:targetSdkVersion="26" />
 8-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:7:5-8:41
-9        android:minSdkVersion="8"
-9-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:7:5-8:41
-10        android:targetSdkVersion="15" />
-10-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:8:9-38
+8-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:8:9-38
+9
+10    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+10-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:6:5-81
+10-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:6:22-78
 11
 12    <application
 12-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:10:5-38:19
@@ -21,51 +22,50 @@
 15-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:12:9-41
 16        android:screenOrientation="portrait"
 16-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:14:9-45
-17        android:testOnly="true"
-18        android:theme="@style/AppTheme" >
-18-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:13:9-40
-19        <activity
-19-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:15:9-24:20
-20            android:name="jp.live2d.sample.SampleActivity"
-20-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:17:13-43
-21            android:label="@string/title_activity_sample"
-21-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:18:13-58
-22            android:screenOrientation="portrait" >
-22-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:16:13-49
-23            <intent-filter>
-23-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:19:13-23:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:20:17-69
-24-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:20:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:22:17-77
-26-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:22:27-74
-27            </intent-filter>
-28        </activity>
-29
-30        <service
-30-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:26:9-37:13
-31            android:name="jp.live2d.sample.LiveWallpaperService"
-31-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:27:7-59
-32            android:label="@string/title_activity_sample"
-32-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:28:7-52
-33            android:permission="android.permission.BIND_WALLPAPER" >
-33-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:29:7-61
-34            <intent-filter>
-34-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:30:7-32:23
-35                <action android:name="android.service.wallpaper.WallpaperService" />
-35-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:31:11-79
-35-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:31:19-76
-36            </intent-filter>
-37
-38            <meta-data
-38-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:34:7-36:47
-39                android:name="android.service.wallpaper"
-39-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:35:11-51
-40                android:resource="@xml/wallpaper" />
-40-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:36:11-44
-41        </service>
-42    </application>
-43
-44</manifest>
+17        android:theme="@style/AppTheme" >
+17-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:13:9-40
+18        <activity
+18-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:15:9-24:20
+19            android:name="jp.live2d.sample.SampleActivity"
+19-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:17:13-43
+20            android:label="@string/title_activity_sample"
+20-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:18:13-58
+21            android:screenOrientation="portrait" >
+21-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:16:13-49
+22            <intent-filter>
+22-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:19:13-23:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:20:17-69
+23-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:20:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:22:17-77
+25-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:22:27-74
+26            </intent-filter>
+27        </activity>
+28
+29        <service
+29-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:26:9-37:13
+30            android:name="jp.live2d.sample.LiveWallpaperService"
+30-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:27:7-59
+31            android:label="@string/title_activity_sample"
+31-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:28:7-52
+32            android:permission="android.permission.BIND_WALLPAPER" >
+32-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:29:7-61
+33            <intent-filter>
+33-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:30:7-32:23
+34                <action android:name="android.service.wallpaper.WallpaperService" />
+34-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:31:11-79
+34-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:31:19-76
+35            </intent-filter>
+36
+37            <meta-data
+37-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:34:7-36:47
+38                android:name="android.service.wallpaper"
+38-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:35:11-51
+39                android:resource="@xml/wallpaper" />
+39-->D:\AndroidProject\yelive2d\app\src\main\AndroidManifest.xml:36:11-44
+40        </service>
+41    </application>
+42
+43</manifest>

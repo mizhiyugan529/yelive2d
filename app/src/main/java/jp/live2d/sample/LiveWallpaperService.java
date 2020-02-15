@@ -10,20 +10,22 @@ package jp.live2d.sample;
 
 import android.content.Context;
 import android.content.Intent;
-import android.util.DisplayMetrics;
+import android.content.ServiceConnection;
+import android.content.SharedPreferences;
+import android.os.Bundle;
 import android.util.Log;
 import android.view.MotionEvent;
-import android.view.WindowManager;
 
 import net.rbgrn.android.glwallpaperservice.*;
 
 public class LiveWallpaperService extends GLWallpaperService {
-
+	static String picString;
 
 	public LiveWallpaperService() {
 		super();
 
 	}
+
 
 	public Engine onCreateEngine() {
 		MyEngine engine = new MyEngine();
@@ -36,36 +38,22 @@ public class LiveWallpaperService extends GLWallpaperService {
 		public MyEngine() {
 			super();
 			// handle prefs, other initialization
-			renderer = new Live2DRenderer(getApplicationContext());
+			SharedPreferences sp=getApplicationContext().getSharedPreferences("yelive2d", Context.MODE_PRIVATE);
+			picString=sp.getString("img", "");
+			Log.d("thepicstring", "MyEngine: "+picString);
+			if (picString !=null&&picString !=""){
+				renderer = new Live2DRenderer(getApplicationContext(), picString);
+			}else{
+				Log.d("thepicstring", "here"+picString);
+			renderer = new Live2DRenderer(getApplicationContext());}
 			setRenderer(renderer);
 			setRenderMode(RENDERMODE_CONTINUOUSLY);
 		}
 
 		@Override
 		public void onTouchEvent(MotionEvent event) {
-			//mViewWidth 是整个屏幕的宽度
-			//就是在屏幕的一半+100和-100之间的宽度 同理高度
-			boolean isCenterOfX = event.getX() < 628
-					&& event.getX() > 448;
-			boolean isCenterOfY = event.getY() < 1683
-					&& event.getY() >1000;
-			//如果点击的位置是在这个方形之间
-
-//			Log.i("touch!!!!!", "touchwidth:"+event.getX());
-//			Log.i("touch!!!!!", "touchheight:"+event.getY());
 			if(event.getAction() == MotionEvent.ACTION_UP){
 			renderer.judgePart(event.getX(),event.getY());}
-//			if(isCenterOfX && isCenterOfY){
-//				//必须要点击之后手指离开才进行监听
-//				if(event.getAction() == MotionEvent.ACTION_UP){
-//					Log.i("touch!!!!!", "onTouch: Center");
-//					renderer.haixiu();
-//					//回调方法 B中注册使用 A就是该Activity进行监听回调
-//				}
-//				//返回true代表这个事件不向下分发，到这里就停止了
-//				//不会进行下面的方法了
-//				return;
-//			}
 
 			switch (event.getAction()) {
 			case MotionEvent.ACTION_DOWN:
